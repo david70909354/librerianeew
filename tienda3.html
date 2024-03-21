@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu Simple con HTML Y CSS</title>
+	<link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+	<header>
+		<nav class="navegacion">
+			<ul class="menu">
+        <li><a href="tienda.html"> HOMEN</a></li>
+				<li><a href="tienda3.html">  INICIAR SECCIÓN</a></li>
+				<li><a href="tienda4.html">REGISTO USUARIO</a></li>
+        <li><a href="tienda8.html">PROMOCION</a></li>
+      
+        <li><a href="tienda9a.html">CARRITO DE COMPRAS</a></li>
+        <li><a href="tienda5.html">BUSCAR</a></li>
+         <li><a href="#">GENEROS LITEARIOS</a>
+					<ul class="submenu">
+						<li><a href="tienda11.html">NOVELA</a></li>
+						<li><a href="tieenada14.html">POESIA</a></li>
+						<li><a href="tienda16.html">CUENTO</a></li>
+            <li><a href="tienda16.html">TERROR</a></li>
+            <li><a href="tienda17.html">TRILOGIAS</a></li>
+					</ul>
+          <li><a href="tienda10.html">SALIR </a>
+				</li>
+				
+			</ul>
+		</nav>
+	</header>
+</body>
+</html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="estilos3.css">
+  <title>Formulario de Inicio de Sesión</title>
+  <script src="script2.js"></script>
+</head>
+<body>
+  <section class="form-register">
+    <h2>Iniciar sesión</h2>
+    <form id="loginForm" onsubmit="return validarCredenciales()">
+      <label for="username">Nombre de usuario:</label>
+      <input type="text" id="username" name="username" required><br><br>
+      
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      
+      <input type="submit" value="Iniciar sesión">
+    </form>
+    
+    <div id="resultado"></div>
+  </section>
+</body>
+</html>
